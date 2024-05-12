@@ -60,5 +60,5 @@ typedef struct czlowiek {
 int main(void) {
     // Miejce na twój kod
     czlowiek Jan = {.wiek = 105, .imie = "Jan", .wzrost = 2.137};
-    weryfikacja1(&Jan, 24);
+    weryfikacja1(&Jan, sizeof(czlowiek));
 }
